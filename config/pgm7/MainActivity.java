@@ -1,4 +1,4 @@
-package com.example.program7;
+package com.example.myapplicationlab7;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import java.util.Locale;
 
-public class MainActivity<AppCompatActivity> extends AppCompatActivity implements View.OnClickListener, TextToSpeech.OnInitListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener, TextToSpeech.OnInitListener {
     Button btnSpeak;
     EditText txtSpeak;
     TextToSpeech textToSpeech;
